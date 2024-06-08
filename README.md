@@ -13,24 +13,26 @@ I'm a passionate full stack web developer with 1.5 years of professional experie
 </div>
 <br clear="both" />
 
-<div style="display: flex; justify-content: space-between; gap: 2%; background-color: #141321; color: #e4e4e4; padding: 20px; border-radius: 10px;">
-  <div style="flex: 1;">
-    <h2 style="color: #f97e72;">Technical Skills</h2>
-    <ul>
-      <li><strong style="color: #f97e72;">Front-End:</strong> React, TypeScript, Redux, Tailwind CSS, HTML</li>
-      <li><strong style="color: #f97e72;">Back-End:</strong> Ruby on Rails, Go, Python</li>
-      <li><strong style="color: #f97e72;">DevOps:</strong> Docker, Docker Compose, AWS</li>
-    </ul>
-  </div>
-  <div style="flex: 1;">
-    <h2 style="color: #f97e72;">技術的なスキル</h2>
-    <ul>
-      <li><strong style="color: #f97e72;">フロントエンド:</strong> React, TypeScript, Redux, Tailwind CSS, HTML</li>
-      <li><strong style="color: #f97e72;">バックエンド:</strong> Ruby on Rails, Go, Python</li>
-      <li><strong style="color: #f97e72;">DevOps:</strong> Docker, Docker Compose, AWS</li>
-    </ul>
-  </div>
-</div>
+<table align="center" style="width: 94%; margin: 0 auto; table-layout: fixed;">
+  <tr>
+    <td style="background-color: #141321; color: #e4e4e4; padding: 20px; border-radius: 10px; vertical-align: top; width: 47%;">
+      <h2 style="color: #f97e72;">Technical Skills</h2>
+      <ul>
+        <li><strong style="color: #f97e72;">Front-End:</strong> React, TypeScript, Redux, Tailwind CSS, HTML</li>
+        <li><strong style="color: #f97e72;">Back-End:</strong> Ruby on Rails, Go, Python</li>
+        <li><strong style="color: #f97e72;">DevOps:</strong> Docker, Docker Compose, AWS</li>
+      </ul>
+    </td>
+    <td style="background-color: #141321; color: #e4e4e4; padding: 20px; border-radius: 10px; vertical-align: top; width: 47%;">
+      <h2 style="color: #f97e72;">技術的なスキル</h2>
+      <ul>
+        <li><strong style="color: #f97e72;">フロントエンド:</strong> React, TypeScript, Redux, Tailwind CSS, HTML</li>
+        <li><strong style="color: #f97e72;">バックエンド:</strong> Ruby on Rails, Go, Python</li>
+        <li><strong style="color: #f97e72;">DevOps:</strong> Docker, Docker Compose, AWS</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
 <div style="background-color: #141321; color: #e4e4e4; padding: 20px; border-radius: 10px; margin-top: 20px;">
   <div align="center" style="display: flex; justify-content: center; gap: 2%;">
