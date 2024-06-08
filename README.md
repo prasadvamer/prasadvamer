@@ -6,11 +6,6 @@ I'm a passionate full stack web developer with 1.5 years of professional experie
 ## 私について
 私は、島根県、日本のブレイブスタジオ株式会社で1.5年間のプロフェッショナルな経験を持つ情熱的なフルスタックウェブ開発者です。スケーラビリティとパフォーマンスに重点を置いた堅牢なアプリケーションの構築を専門としています。私の技術スタックには、Ruby on Rails、TypeScriptを使用したReact、API開発のためのGoが含まれており、AWSとDockerを使用したシームレスなデプロイメントおよび開発環境のスキルも備えています。また、日本語能力試験N4レベルの資格も持っています。
 
-<div align="center" style="display: flex; justify-content: center; gap: 2%;">
-  <img alt="my stats" width="47%" src="https://github-readme-stats.vercel.app/api?username=prasad-vamer&show_icons=true&theme=radical&locale=en" />
-  <img alt="私の統計" width="47%" src="https://github-readme-stats.vercel.app/api?username=prasad-vamer&show_icons=true&theme=radical&locale=ja" />
-</div>
-<br clear="both" />
 
 <div align="center" style="display: flex; justify-content: center; gap: 2%;">
   <img alt="my languages" width="47%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=prasad-vamer&hide=html,css&theme=radical" />
@@ -18,18 +13,37 @@ I'm a passionate full stack web developer with 1.5 years of professional experie
 </div>
 <br clear="both" />
 
+<div style="display: flex; justify-content: space-between; gap: 2%; background-color: #141321; color: #e4e4e4; padding: 20px; border-radius: 10px;">
+  <div style="flex: 1;">
+    <h2 style="color: #f97e72;">Technical Skills</h2>
+    <ul>
+      <li><strong style="color: #f97e72;">Front-End:</strong> React, TypeScript, Redux, Tailwind CSS, HTML</li>
+      <li><strong style="color: #f97e72;">Back-End:</strong> Ruby on Rails, Go, Python</li>
+      <li><strong style="color: #f97e72;">DevOps:</strong> Docker, Docker Compose, AWS</li>
+    </ul>
+  </div>
+  <div style="flex: 1;">
+    <h2 style="color: #f97e72;">技術的なスキル</h2>
+    <ul>
+      <li><strong style="color: #f97e72;">フロントエンド:</strong> React, TypeScript, Redux, Tailwind CSS, HTML</li>
+      <li><strong style="color: #f97e72;">バックエンド:</strong> Ruby on Rails, Go, Python</li>
+      <li><strong style="color: #f97e72;">DevOps:</strong> Docker, Docker Compose, AWS</li>
+    </ul>
+  </div>
+</div>
 
-## Technical Skills
-- **Front-End:** React, TypeScript, Redux, Tailwind CSS, HTML
-- **Back-End:** Ruby on Rails, Go, Python
-- **DevOps:** Docker, Docker Compose, AWS
+<div style="background-color: #141321; color: #e4e4e4; padding: 20px; border-radius: 10px; margin-top: 20px;">
+  <div align="center" style="display: flex; justify-content: center; gap: 2%;">
+    <img alt="my stats" width="47%" src="https://github-readme-stats.vercel.app/api?username=prasad-vamer&show_icons=true&theme=radical&locale=en" />
+    <img alt="私の統計" width="47%" src="https://github-readme-stats.vercel.app/api?username=prasad-vamer&show_icons=true&theme=radical&locale=ja" />
+  </div>
+</div>
 
-## 技術的なスキル
-- **フロントエンド:** React, TypeScript, Redux, Tailwind CSS, HTML
-- **バックエンド:** Ruby on Rails, Go, Python
-- **DevOps:** Docker, Docker Compose, AWS
-
-## Get in Touch (連絡する)
-- **GitHub:** [prasad-vamer](https://github.com/prasad-vamer)
-- **LinkedIn:** [KRISHNAPRASAD T P](https://www.linkedin.com/in/krishnaprasad-t-p-502218192/)
-- **Email:** prasadkrishnakptp@gmail.com
+<div style="background-color: #141321; color: #e4e4e4; padding: 20px; border-radius: 10px; margin-top: 20px;">
+  <h2 style="color: #f97e72;">Get in Touch (連絡する)</h2>
+  <ul>
+    <li><strong style="color: #f97e72;">GitHub:</strong> <a href="https://github.com/prasad-vamer" style="color: #58a6ff;">prasad-vamer</a></li>
+    <li><strong style="color: #f97e72;">LinkedIn:</strong> <a href="https://www.linkedin.com/in/krishnaprasad-t-p-502218192/" style="color: #58a6ff;">KRISHNAPRASAD T P</a></li>
+    <li><strong style="color: #f97e72;">Email:</strong> <a href="mailto:prasadkrishnakptp@gmail.com" style="color: #58a6ff;">prasadkrishnakptp@gmail.com</a></li>
+  </ul>
+</div>
