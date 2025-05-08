@@ -8,8 +8,8 @@ I'm a passionate full stack web developer with 1.5 years of professional experie
 
 
 <div align="center" style="display: flex; justify-content: center; gap: 2%;">
-  <img alt="my languages" width="47%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=prasad-vamer&hide=html,css&theme=radical" />
-  <img alt="私の言語" width="47%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=prasad-vamer&hide=html,css&theme=radical&locale=ja" />
+  <img alt="my languages" width="47%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=prasadvamer&hide=html,css&theme=radical" />
+  <img alt="私の言語" width="47%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=prasadvamer&hide=html,css&theme=radical&locale=ja" />
 </div>
 <br clear="both" />
 
@@ -36,15 +36,15 @@ I'm a passionate full stack web developer with 1.5 years of professional experie
 
 <div style="background-color: #141321; color: #e4e4e4; padding: 20px; border-radius: 10px; margin-top: 20px;">
   <div align="center" style="display: flex; justify-content: center; gap: 2%;">
-    <img alt="my stats" width="47%" src="https://github-readme-stats.vercel.app/api?username=prasad-vamer&show_icons=true&theme=radical&locale=en" />
-    <img alt="私の統計" width="47%" src="https://github-readme-stats.vercel.app/api?username=prasad-vamer&show_icons=true&theme=radical&locale=ja" />
+    <img alt="my stats" width="47%" src="https://github-readme-stats.vercel.app/api?username=prasadvamer&show_icons=true&theme=radical&locale=en" />
+    <img alt="私の統計" width="47%" src="https://github-readme-stats.vercel.app/api?username=prasadvamer&show_icons=true&theme=radical&locale=ja" />
   </div>
 </div>
 
 <div style="background-color: #141321; color: #e4e4e4; padding: 20px; border-radius: 10px; margin-top: 20px;">
   <h2 style="color: #f97e72;">Get in Touch (連絡する)</h2>
   <ul>
-    <li><strong style="color: #f97e72;">GitHub:</strong> <a href="https://github.com/prasad-vamer" style="color: #58a6ff;">prasad-vamer</a></li>
+    <li><strong style="color: #f97e72;">GitHub:</strong> <a href="https://github.com/prasadvamer" style="color: #58a6ff;">prasadvamer</a></li>
     <li><strong style="color: #f97e72;">LinkedIn:</strong> <a href="https://www.linkedin.com/in/krishnaprasad-t-p-502218192/" style="color: #58a6ff;">KRISHNAPRASAD T P</a></li>
     <li><strong style="color: #f97e72;">Email:</strong> <a href="mailto:prasadkrishnakptp@gmail.com" style="color: #58a6ff;">prasadkrishnakptp@gmail.com</a></li>
   </ul>
