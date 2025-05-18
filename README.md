@@ -53,17 +53,87 @@
     <td style="background-color: #141321; color: #e4e4e4; padding: 20px; border-radius: 10px; vertical-align: top; width: 47%;">
       <h2 style="color: #f97e72;">Technical Skills</h2>
       <ul>
-        <li><strong style="color: #f97e72;">Front-End:</strong> React, TypeScript, Redux, Tailwind CSS, HTML</li>
-        <li><strong style="color: #f97e72;">Back-End:</strong> Ruby on Rails, Go, Python</li>
-        <li><strong style="color: #f97e72;">DevOps:</strong> Docker, Docker Compose, AWS</li>
+        <li><strong style="color: #f97e72;">Languages:</strong> 
+          <span title="95%">Ruby</span>, 
+          <span title="85%">JavaScript</span>, 
+          <span title="80%">TypeScript</span>, 
+          <span title="70%">Go</span>, 
+          <span title="65%">Python</span>
+        </li>
+        <li><strong style="color: #f97e72;">Frameworks / Libraries:</strong> 
+          <span title="95%">Ruby on Rails</span>, 
+          <span title="85%">React</span>, 
+          <span title="80%">RSpec</span>, 
+          <span title="80%">GORM</span>, 
+          <span title="75%">Node.js + Express</span>
+        </li>
+        <li><strong style="color: #f97e72;">Cloud & Infrastructure:</strong> 
+          <span title="85%">AWS</span>, 
+          <span title="80%">AWS CDK (TypeScript)</span>, 
+          <span title="60%">CloudFormation</span>
+        </li>
+        <li><strong style="color: #f97e72;">DevOps & CI/CD:</strong> 
+          <span title="90%">Docker</span>, 
+          <span title="80%">GitHub Actions</span>, 
+          <span title="75%">AWS CodePipeline</span>, 
+          <span title="70%">Podman</span>
+        </li>
+        <li><strong style="color: #f97e72;">Databases & ORMs:</strong> 
+          <span title="85%">MySQL</span>, 
+          <span title="85%">PostgreSQL</span>, 
+          <span title="80%">GORM</span>, 
+          <span title="75%">SchemaSpy</span>, 
+          <span title="60%">Prisma</span>, 
+          <span title="60%">pgAdmin</span>
+        </li>
+        <li><strong style="color: #f97e72;">Frontend Tooling:</strong> 
+          <span title="90%">Tailwind CSS</span>, 
+          <span title="70%">Vite</span>, 
+          <span title="65%">Webpack</span>
+        </li>
       </ul>
     </td>
     <td style="background-color: #141321; color: #e4e4e4; padding: 20px; border-radius: 10px; vertical-align: top; width: 47%;">
       <h2 style="color: #f97e72;">技術的なスキル</h2>
       <ul>
-        <li><strong style="color: #f97e72;">フロントエンド:</strong> React, TypeScript, Redux, Tailwind CSS, HTML</li>
-        <li><strong style="color: #f97e72;">バックエンド:</strong> Ruby on Rails, Go, Python</li>
-        <li><strong style="color: #f97e72;">DevOps:</strong> Docker, Docker Compose, AWS</li>
+        <li><strong style="color: #f97e72;">言語:</strong> 
+          <span title="95%">Ruby</span>、 
+          <span title="85%">JavaScript</span>、 
+          <span title="80%">TypeScript</span>、 
+          <span title="70%">Go</span>、 
+          <span title="65%">Python</span>
+        </li>
+        <li><strong style="color: #f97e72;">フレームワーク / ライブラリ:</strong> 
+          <span title="95%">Ruby on Rails</span>、 
+          <span title="85%">React</span>、 
+          <span title="80%">RSpec</span>、 
+          <span title="80%">GORM</span>、 
+          <span title="75%">Node.js + Express</span>
+        </li>
+        <li><strong style="color: #f97e72;">クラウド・インフラ:</strong> 
+          <span title="85%">AWS</span>、 
+          <span title="80%">AWS CDK (TypeScript)</span>、 
+          <span title="60%">CloudFormation</span>
+        </li>
+        <li><strong style="color: #f97e72;">DevOps & CI/CD:</strong> 
+          <span title="90%">Docker</span>、 
+          <span title="80%">GitHub Actions</span>、 
+          <span title="75%">AWS CodePipeline</span>、 
+          <span title="70%">Podman</span>
+        </li>
+        <li><strong style="color: #f97e72;">データベース & ORMs:</strong> 
+          <span title="85%">MySQL</span>、 
+          <span title="85%">PostgreSQL</span>、 
+          <span title="80%">GORM</span>、 
+          <span title="75%">SchemaSpy</span>、 
+          <span title="60%">Prisma</span>、 
+          <span title="60%">pgAdmin</span>
+        </li>
+        <li><strong style="color: #f97e72;">フロントエンドツール:</strong> 
+          <span title="90%">Tailwind CSS</span>、 
+          <span title="70%">Vite</span>、 
+          <span title="65%">Webpack</span>
+        </li>
       </ul>
     </td>
   </tr>
