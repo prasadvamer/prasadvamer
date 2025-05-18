@@ -55,10 +55,20 @@ jobs:
           perl -i -pe "s/<!--START_EXPERIENCE-->.*?<!--END_EXPERIENCE-->/<!--START_EXPERIENCE-->$EXPERIENCE<!--END_EXPERIENCE-->/g" README.md
           perl -i -pe "s/<!--START_EXPERIENCE_JA-->.*?<!--END_EXPERIENCE_JA-->/<!--START_EXPERIENCE_JA-->$EXPERIENCE_JA<!--END_EXPERIENCE_JA-->/g" README.md
 
+      - name: Debug calculated values
+        run: |
+          echo "English: $EXPERIENCE"
+          echo "Japanese: $EXPERIENCE_JA"
+
       - name: Commit changes
         run: |
           git config user.name "prasadvamer"
           git config user.email "prasadkrishnakptp@gmail.com"
-          git add README.md
-          git commit -m "Update experience in README"
-          git push
+
+          if [[ -n $(git status --porcelain) ]]; then
+            git add README.md
+            git commit -m "Update experience in README"
+            git push
+          else
+            echo "No changes to commit."
+          fi

@@ -4,7 +4,9 @@
   <h2 style="color: #f97e72;">About Me</h2>
 
   <p>
-  I'm a full-stack web developer with 🧑‍💻 <span style="background: #222; color: #f97e72; padding: 2px 6px; border-radius: 4px; font-weight: 600;"><!--START_EXPERIENCE--><!--END_EXPERIENCE--></span> of professional experience building scalable, production-grade applications across diverse teams and projects.
+  I'm a full-stack web developer with 🧑‍💻 
+  <span style="background: #222; color: #f97e72; padding: 2px 6px; border-radius: 4px; font-weight: 600;"><!--START_EXPERIENCE--><!--END_EXPERIENCE--></span>
+  of professional experience building scalable, production-grade applications across diverse teams and projects.
   </p>
 
   <p>
@@ -16,15 +18,11 @@
   <h2 style="color: #f97e72;">私について</h2>
 
   <p>
-  私は、<span style="background: #222; color: #f97e72; padding: 2px 6px; border-radius: 4px; font-weight: 600;"> <!--START_EXPERIENCE_JA--><!--END_EXPERIENCE_JA--> </span> の間、さまざまなチームやプロジェクトで実務経験を積んできたフルスタックウェブ開発者です。
+  私は、
+  <span style="background: #222; color: #f97e72; padding: 2px 6px; border-radius: 4px; font-weight: 600;"><!--START_EXPERIENCE_JA--><!--END_EXPERIENCE_JA--></span>
+  の間、さまざまなチームやプロジェクトで実務経験を積んできたフルスタックウェブ開発者です。
   </p>
 
-  <p>
-  スケーラビリティとパフォーマンスに優れたアプリケーションの開発を得意としています。使用技術は、
-  <strong>Ruby on Rails</strong>、<strong>TypeScript</strong> と <strong>React</strong>、<strong>Go</strong> を用いた API 開発、
-  さらに <strong>AWS</strong>、<strong>Docker</strong>、<strong>AWS CDK</strong> を利用したインフラ設計と DevOps のスキルも持っています。
-  現在、<strong>日本語能力試験 N3</strong> を保持しており、<strong>N2 合格</strong>を目指して勉強中です。
-  </p>
 </div>
 
 <div align="center" style="display: flex; justify-content: center; gap: 2%;">
