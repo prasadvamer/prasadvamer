@@ -20,36 +20,36 @@ jobs:
 
           # English experience using heredoc
           EXPERIENCE=$(python3 <<EOF
-from datetime import datetime
-from dateutil.relativedelta import relativedelta
-start = datetime.strptime("$FROM_DATE", "%Y-%m-%d")
-now = datetime.strptime("$TODAY", "%Y-%m-%d")
-diff = relativedelta(now, start)
-print(f"{diff.years} years, {diff.months} months, {diff.days} days of experience")
-EOF
-)
+          from datetime import datetime
+          from dateutil.relativedelta import relativedelta
+          start = datetime.strptime("$FROM_DATE", "%Y-%m-%d")
+          now = datetime.strptime("$TODAY", "%Y-%m-%d")
+          diff = relativedelta(now, start)
+          print(f"{diff.years} years, {diff.months} months, {diff.days} days of experience")
+          EOF
+          )
 
           # Japanese experience using heredoc
           EXPERIENCE_JA=$(python3 <<EOF
-from datetime import datetime
-from dateutil.relativedelta import relativedelta
-start = datetime.strptime("$FROM_DATE", "%Y-%m-%d")
-now = datetime.strptime("$TODAY", "%Y-%m-%d")
-diff = relativedelta(now, start)
-print(f"{diff.years}年、{diff.months}ヶ月、{diff.days}日間の経験")
-EOF
-)
+          from datetime import datetime
+          from dateutil.relativedelta import relativedelta
+          start = datetime.strptime("$FROM_DATE", "%Y-%m-%d")
+          now = datetime.strptime("$TODAY", "%Y-%m-%d")
+          diff = relativedelta(now, start)
+          print(f"{diff.years}年、{diff.months}ヶ月、{diff.days}日間の経験")
+          EOF
+          )
 
           # Replace placeholders using awk (still safe via heredoc-style logic)
           awk -v eng="$EXPERIENCE" -v jp="$EXPERIENCE_JA" '
-BEGIN { in_en=0; in_ja=0 }
-/<!--START_EXPERIENCE-->/ { print; print eng; in_en=1; next }
-/<!--END_EXPERIENCE-->/ { in_en=0; print; next }
-/<!--START_EXPERIENCE_JA-->/ { print; print jp; in_ja=1; next }
-/<!--END_EXPERIENCE_JA-->/ { in_ja=0; print; next }
-in_en == 1 || in_ja == 1 { next }
-{ print }
-' README.md > temp.md && mv temp.md README.md
+          BEGIN { in_en=0; in_ja=0 }
+          /<!--START_EXPERIENCE-->/ { print; print eng; in_en=1; next }
+          /<!--END_EXPERIENCE-->/ { in_en=0; print; next }
+          /<!--START_EXPERIENCE_JA-->/ { print; print jp; in_ja=1; next }
+          /<!--END_EXPERIENCE_JA-->/ { in_ja=0; print; next }
+          in_en == 1 || in_ja == 1 { next }
+          { print }
+          ' README.md > temp.md && mv temp.md README.md
 
       - name: Commit changes
         run: |
