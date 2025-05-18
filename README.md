@@ -1,12 +1,29 @@
 # Hi there, I'm Prasad 👋
 
-## About Me
+<h2 style="color: #f97e72;">About Me</h2>
 
-I'm a full-stack web developer with <!--START_EXPERIENCE-->2 years, 7 months, 17 days of experience<!--END_EXPERIENCE--> of professional experience building scalable, production-grade applications across diverse teams and projects. I specialize in Ruby on Rails, React with TypeScript, and Go for API development. My skill set extends to DevOps and infrastructure with AWS, Docker, and AWS CDK. I'm certified at JLPT N3 and currently preparing for N2.
+<p>
+I'm a full-stack web developer with 🧑‍💻 <span style="background: #222; color: #f97e72; padding: 2px 6px; border-radius: 4px; font-weight: 600;"><!--START_EXPERIENCE-->2 years, 7 months of experience<!--END_EXPERIENCE--></span> of professional experience building scalable, production-grade applications across diverse teams and projects.
+</p>
 
-## 私について
+<p>
+I specialize in <strong>Ruby on Rails</strong>, <strong>React with TypeScript</strong>, and <strong>Go</strong> for API development.
+My skill set extends to DevOps and infrastructure with <strong>AWS</strong>, <strong>Docker</strong>, and <strong>AWS CDK</strong>.
+I'm certified at <strong>JLPT N3</strong> and currently preparing for <strong>N2</strong>.
+</p>
 
-私は、<!--START_EXPERIENCE_JA-->2年、7ヶ月、17日間の経験<!--END_EXPERIENCE_JA-->の間、さまざまなチームやプロジェクトで実務経験を積んできたフルスタックウェブ開発者です。スケーラビリティとパフォーマンスに優れたアプリケーションの開発を得意としています。使用技術は、Ruby on Rails、TypeScript と React、Go を用いた API 開発、さらに AWS、Docker、AWS CDK を利用したインフラ設計と DevOps のスキルも持っています。現在、日本語能力試験 N3 を保持しており、N2 合格を目指して勉強中です。
+<h2 style="color: #f97e72;">私について</h2>
+
+<p>
+私は、<span style="background: #222; color: #f97e72; padding: 2px 6px; border-radius: 4px; font-weight: 600;"> <!--START_EXPERIENCE_JA-->2年、7ヶ月の経験<!--END_EXPERIENCE_JA--> </span> の間、さまざまなチームやプロジェクトで実務経験を積んできたフルスタックウェブ開発者です。
+</p>
+
+<p>
+スケーラビリティとパフォーマンスに優れたアプリケーションの開発を得意としています。使用技術は、
+<strong>Ruby on Rails</strong>、<strong>TypeScript</strong> と <strong>React</strong>、<strong>Go</strong> を用いた API 開発、
+さらに <strong>AWS</strong>、<strong>Docker</strong>、<strong>AWS CDK</strong> を利用したインフラ設計と DevOps のスキルも持っています。
+現在、<strong>日本語能力試験 N3</strong> を保持しており、<strong>N2 合格</strong>を目指して勉強中です。
+</p>
 
 <div align="center" style="display: flex; justify-content: center; gap: 2%;">
   <img alt="my languages" width="47%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=prasadvamer&hide=html,css&theme=radical" />
