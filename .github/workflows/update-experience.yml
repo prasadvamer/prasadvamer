@@ -1,0 +1,56 @@
+# .github/workflows/update-experience.yml
+name: Update Experience in README
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # Runs every day at midnight UTC
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Calculate experience and update README
+        run: |
+          FROM_DATE="2022-10-01"
+          TODAY=$(date '+%Y-%m-%d')
+
+          # English experience calculation
+          EXPERIENCE=$(python3 -c "
+          from datetime import datetime
+          from dateutil.relativedelta import relativedelta
+
+          start = datetime.strptime('$FROM_DATE', '%Y-%m-%d')
+          now = datetime.strptime('$TODAY', '%Y-%m-%d')
+          diff = relativedelta(now, start)
+          print(f'{diff.years} years, {diff.months} months, {diff.days} days of experience')
+          ")
+
+          # Japanese experience calculation
+          EXPERIENCE_JA=$(python3 -c "
+          from datetime import datetime
+          from dateutil.relativedelta import relativedelta
+
+          start = datetime.strptime('$FROM_DATE', '%Y-%m-%d')
+          now = datetime.strptime('$TODAY', '%Y-%m-%d')
+          diff = relativedelta(now, start)
+          print(f'{diff.years}年、{diff.months}ヶ月、{diff.days}日間の経験')
+          ")
+
+          # Replace content between tags
+          sed -i "/<!--START_EXPERIENCE-->/, /<!--END_EXPERIENCE-->/c\
+          <!--START_EXPERIENCE-->\n$EXPERIENCE\n<!--END_EXPERIENCE-->" README.md
+
+          # Replace Japanese experience block
+          sed -i "/<!--START_EXPERIENCE_JA-->/, /<!--END_EXPERIENCE_JA-->/c\
+          <!--START_EXPERIENCE_JA-->\n$EXPERIENCE_JA\n<!--END_EXPERIENCE_JA-->" README.md
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add README.md
+          git commit -m "Update experience"
+          git push

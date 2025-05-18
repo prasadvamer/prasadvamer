@@ -1,11 +1,12 @@
 # Hi there, I'm Prasad 👋
 
 ## About Me
-I'm a passionate full stack web developer with 1.5 years of professional experience at Bravestudio Inc. in Shimane, Japan. I specialize in building robust applications with a keen focus on scalability and performance. My tech stack includes Ruby on Rails, React with TypeScript, and Go for API development, complemented by my skills in AWS and Docker for seamless deployment and development environments. I am also an N4 level Japanese language qualifier.
+
+I'm a full-stack web developer with <!--START_EXPERIENCE-->_...calculating..._<!--END_EXPERIENCE--> of professional experience building scalable, production-grade applications across diverse teams and projects. I specialize in Ruby on Rails, React with TypeScript, and Go for API development. My skill set extends to DevOps and infrastructure with AWS, Docker, and AWS CDK. I'm certified at JLPT N3 and currently preparing for N2.
 
 ## 私について
-私は、島根県、日本のブレイブスタジオ株式会社で1.5年間のプロフェッショナルな経験を持つ情熱的なフルスタックウェブ開発者です。スケーラビリティとパフォーマンスに重点を置いた堅牢なアプリケーションの構築を専門としています。私の技術スタックには、Ruby on Rails、TypeScriptを使用したReact、API開発のためのGoが含まれており、AWSとDockerを使用したシームレスなデプロイメントおよび開発環境のスキルも備えています。また、日本語能力試験N4レベルの資格も持っています。
 
+私は、<!--START_EXPERIENCE_JA-->_...計算中..._<!--END_EXPERIENCE_JA-->の間、さまざまなチームやプロジェクトで実務経験を積んできたフルスタックウェブ開発者です。スケーラビリティとパフォーマンスに優れたアプリケーションの開発を得意としています。使用技術は、Ruby on Rails、TypeScript と React、Go を用いた API 開発、さらに AWS、Docker、AWS CDK を利用したインフラ設計と DevOps のスキルも持っています。現在、日本語能力試験 N3 を保持しており、N2 合格を目指して勉強中です。
 
 <div align="center" style="display: flex; justify-content: center; gap: 2%;">
   <img alt="my languages" width="47%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=prasadvamer&hide=html,css&theme=radical" />
