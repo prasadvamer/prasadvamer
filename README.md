@@ -2,11 +2,11 @@
 
 ## About Me
 
-I'm a full-stack web developer with <!--START_EXPERIENCE-->_...calculating..._<!--END_EXPERIENCE--> of professional experience building scalable, production-grade applications across diverse teams and projects. I specialize in Ruby on Rails, React with TypeScript, and Go for API development. My skill set extends to DevOps and infrastructure with AWS, Docker, and AWS CDK. I'm certified at JLPT N3 and currently preparing for N2.
+I'm a full-stack web developer with <!--START_EXPERIENCE-->2 years, 7 months, 17 days of experience<!--END_EXPERIENCE--> of professional experience building scalable, production-grade applications across diverse teams and projects. I specialize in Ruby on Rails, React with TypeScript, and Go for API development. My skill set extends to DevOps and infrastructure with AWS, Docker, and AWS CDK. I'm certified at JLPT N3 and currently preparing for N2.
 
 ## 私について
 
-私は、<!--START_EXPERIENCE_JA-->_...計算中..._<!--END_EXPERIENCE_JA-->の間、さまざまなチームやプロジェクトで実務経験を積んできたフルスタックウェブ開発者です。スケーラビリティとパフォーマンスに優れたアプリケーションの開発を得意としています。使用技術は、Ruby on Rails、TypeScript と React、Go を用いた API 開発、さらに AWS、Docker、AWS CDK を利用したインフラ設計と DevOps のスキルも持っています。現在、日本語能力試験 N3 を保持しており、N2 合格を目指して勉強中です。
+私は、<!--START_EXPERIENCE_JA-->2年、7ヶ月、17日間の経験<!--END_EXPERIENCE_JA-->の間、さまざまなチームやプロジェクトで実務経験を積んできたフルスタックウェブ開発者です。スケーラビリティとパフォーマンスに優れたアプリケーションの開発を得意としています。使用技術は、Ruby on Rails、TypeScript と React、Go を用いた API 開発、さらに AWS、Docker、AWS CDK を利用したインフラ設計と DevOps のスキルも持っています。現在、日本語能力試験 N3 を保持しており、N2 合格を目指して勉強中です。
 
 <div align="center" style="display: flex; justify-content: center; gap: 2%;">
   <img alt="my languages" width="47%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=prasadvamer&hide=html,css&theme=radical" />
