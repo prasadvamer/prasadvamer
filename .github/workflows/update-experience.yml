@@ -40,13 +40,13 @@ jobs:
           print(f'{diff.years}年、{diff.months}ヶ月、{diff.days}日間の経験')
           ")
 
-          # Replace content between tags
-          sed -i "/<!--START_EXPERIENCE-->/, /<!--END_EXPERIENCE-->/c\
-          <!--START_EXPERIENCE-->\n$EXPERIENCE\n<!--END_EXPERIENCE-->" README.md
+          # Safely update experience in English
+          sed -i "/<!--START_EXPERIENCE-->/,/<!--END_EXPERIENCE-->/c\\
+          <!--START_EXPERIENCE-->\n${EXPERIENCE}\n<!--END_EXPERIENCE-->" README.md
 
-          # Replace Japanese experience block
-          sed -i "/<!--START_EXPERIENCE_JA-->/, /<!--END_EXPERIENCE_JA-->/c\
-          <!--START_EXPERIENCE_JA-->\n$EXPERIENCE_JA\n<!--END_EXPERIENCE_JA-->" README.md
+          # Safely update experience in Japanese
+          sed -i "/<!--START_EXPERIENCE_JA-->/,/<!--END_EXPERIENCE_JA-->/c\\
+          <!--START_EXPERIENCE_JA-->\n${EXPERIENCE_JA}\n<!--END_EXPERIENCE_JA-->" README.md
       - name: Commit changes
         run: |
           git config user.name "prasadvamer"
