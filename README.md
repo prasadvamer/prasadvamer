@@ -23,6 +23,12 @@
   の間、さまざまなチームやプロジェクトで実務経験を積んできたフルスタックウェブ開発者です。
   </p>
 
+  <p>
+  スケーラビリティとパフォーマンスに優れたアプリケーションの開発を得意としています。使用技術は、
+  <strong>Ruby on Rails</strong>、<strong>TypeScript</strong> と <strong>React</strong>、<strong>Go</strong> を用いた API 開発、
+  さらに <strong>AWS</strong>、<strong>Docker</strong>、<strong>AWS CDK</strong> を利用したインフラ設計と DevOps のスキルも持っています。
+  現在、<strong>日本語能力試験 N3</strong> を保持しており、<strong>N2 合格</strong>を目指して勉強中です。
+  </p>
 </div>
 
 <div align="center" style="display: flex; justify-content: center; gap: 2%;">
