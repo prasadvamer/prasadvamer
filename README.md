@@ -1,5 +1,16 @@
 # Hi there, I'm Prasad 👋
 
+<div style="background-color: #141321; color: #e4e4e4; padding: 20px; border-radius: 10px; margin-top: 20px; text-align: center;">
+  <h2 style="color: #f97e72;">🌐 Explore My Portfolio / ポートフォリオを探索する</h2>
+  <p style="margin: 10px 0;">
+    Explore my professional background, project portfolio, technical expertise, services offered, and contact information for potential collaboration.<br>
+    私の専門的な経歴、プロジェクト実績、技術スキル、提供サービス、およびお問い合わせ方法についてご覧いただけます。
+  </p>
+  <a href="https://prasadvamer.com" target="_blank" style="display: inline-block; padding: 10px 20px; background-color: #f97e72; color: #141321; font-weight: bold; border-radius: 5px; text-decoration: none;">
+    Visit My Portfolio / ポートフォリオへ移動
+  </a>
+</div>
+
 <div style="background-color: #141321; color: #e4e4e4; padding: 20px; border-radius: 10px; margin-top: 20px;">
   <h2 style="color: #f97e72;">About Me</h2>
 
@@ -59,17 +70,11 @@
 </table>
 
 <div style="background-color: #141321; color: #e4e4e4; padding: 20px; border-radius: 10px; margin-top: 20px;">
-  <div align="center" style="display: flex; justify-content: center; gap: 2%;">
-    <img alt="my stats" width="47%" src="https://github-readme-stats.vercel.app/api?username=prasadvamer&show_icons=true&theme=radical&locale=en" />
-    <img alt="私の統計" width="47%" src="https://github-readme-stats.vercel.app/api?username=prasadvamer&show_icons=true&theme=radical&locale=ja" />
-  </div>
-</div>
-
-<div style="background-color: #141321; color: #e4e4e4; padding: 20px; border-radius: 10px; margin-top: 20px;">
   <h2 style="color: #f97e72;">Get in Touch (連絡する)</h2>
   <ul>
-    <li><strong style="color: #f97e72;">GitHub:</strong> <a href="https://github.com/prasadvamer" style="color: #58a6ff;">prasadvamer</a></li>
+    <li><strong style="color: #f97e72;">Send a Message:</strong> <a href="https://prasadvamer.com/#contact" style="color: #58a6ff;">Website</a></li>
     <li><strong style="color: #f97e72;">LinkedIn:</strong> <a href="https://www.linkedin.com/in/krishnaprasad-t-p-502218192/" style="color: #58a6ff;">KRISHNAPRASAD T P</a></li>
     <li><strong style="color: #f97e72;">Email:</strong> <a href="mailto:prasadkrishnakptp@gmail.com" style="color: #58a6ff;">prasadkrishnakptp@gmail.com</a></li>
+    <li><strong style="color: #f97e72;">GitHub:</strong> <a href="https://github.com/prasadvamer" style="color: #58a6ff;">prasadvamer</a></li>
   </ul>
 </div>
