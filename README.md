@@ -16,7 +16,7 @@
 
   <p>
   I'm a full-stack web developer with 🧑‍💻 
-  <span style="background: #222; color: #f97e72; padding: 2px 6px; border-radius: 4px; font-weight: 600;"><!--START_EXPERIENCE-->3 years, 4 months of experience<!--END_EXPERIENCE--></span>
+  <span style="background: #222; color: #f97e72; padding: 2px 6px; border-radius: 4px; font-weight: 600;"><!--START_EXPERIENCE-->3 years, 5 months of experience<!--END_EXPERIENCE--></span>
   of professional experience building scalable, production-grade applications across diverse teams and projects.
   </p>
 
@@ -30,7 +30,7 @@
 
   <p>
   私は、
-  <span style="background: #222; color: #f97e72; padding: 2px 6px; border-radius: 4px; font-weight: 600;"><!--START_EXPERIENCE_JA-->3年、4ヶ月の経験<!--END_EXPERIENCE_JA--></span>
+  <span style="background: #222; color: #f97e72; padding: 2px 6px; border-radius: 4px; font-weight: 600;"><!--START_EXPERIENCE_JA-->3年、5ヶ月の経験<!--END_EXPERIENCE_JA--></span>
   の間、さまざまなチームやプロジェクトで実務経験を積んできたフルスタックウェブ開発者です。
   </p>
 
